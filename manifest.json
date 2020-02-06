@@ -1,0 +1,15 @@
+  {
+    "name": "4Ward",
+    "version": "1.0",
+    "description": "For those who miss the old Foursquare.com",
+    "permissions" : [
+          "webRequest",
+          "webRequestBlocking",
+          "https://foursquare.com/*"
+      ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "manifest_version": 2
+  }
